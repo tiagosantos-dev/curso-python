@@ -17,7 +17,7 @@ asas = [0, 1, 2, 3, 4, 5, 6, 7]
 pegando_cores(cores, asas)
 
 #VARIAVEIS PODEM RECEBER FUNCOES
-#OBS : NAO DEVE USAR PARENTESE SE FOR REFERENCIAR A UMA VARIAVEL
+#OBS: NAO DEVE USAR PARENTESE SE FOR REFERENCIAR UMA VARIAVEL
 alternando_a_funcao = pegando_cores
 alternando_a_funcao(cores, asas)
 
