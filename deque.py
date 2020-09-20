@@ -18,7 +18,7 @@ dequee = deque(["arroz", "feijao ", "açucar", "leite"])
 print(dequee)
 
 #APAGA E RETORNA O PRIMEIRO
-retorna_primeiro= dequee.popleft()
+retorna_primeiro = dequee.popleft()
 print(retorna_primeiro)
 
 #INSERE NO PRIMEIRO ELEMENTO
