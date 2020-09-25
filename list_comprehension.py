@@ -38,3 +38,13 @@ lista_numbers = [34, 333, 3423, 33.3, 235, 0.5, 9.5, 129.4]
 lista_string = [str(elemento) for elemento in lista_numbers]
 print(lista_string)
 
+#GERANDO UMA LISTA COM NUMEROS PARES
+pares = [elemento for elemento in numeros if elemento % 2 == 0]
+impares = [elemento for elemento in numeros if elemento % 2 == 1]
+print(f"Numeros pares: {pares}")
+print(f"Numeros impares: {impares}")
+
+# pares = [elemento for elemento in numeros if not elemento]
+# impares = [elemento for elemento in numeros if elemento]
+# print(f"Numeros pares: {pares}")
+# print(f"Numeros impares: {impares}")
