@@ -1,5 +1,5 @@
 
-receita = {"jan": 120, "fev":323, "marc":342}
+receita = {"jan": 120, "fev": 323, "marc": 342}
 #iterar sobre um dicionario
 
 for chave in receita:
@@ -21,7 +21,7 @@ for chavee in receita.keys():
 # Recomendado para ter acesso os valores
 # Retorna um dicionario de valor
 for valor in receita.values():
-    print(valor)
+    print("valores ", valor)
 
 
 # DESEMPACOTANDO  CHAVES E VALOR
