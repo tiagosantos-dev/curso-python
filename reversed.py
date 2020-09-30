@@ -12,3 +12,5 @@ print(type(reversed(numbers)))
 
 for letra in reversed("Tiago Santos"):
     print(letra, end="")
+
+
