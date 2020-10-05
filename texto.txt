@@ -1,0 +1,5 @@
+Funcao open() =-> Por padrao a funcao open abre o arquivo para leitura.
+este arquivo deve existir  ou entao teremos o erro fileNotFoundError
+
+
+
