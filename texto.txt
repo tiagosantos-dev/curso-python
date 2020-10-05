@@ -1,5 +1,7 @@
 Funcao open() =-> Por padrao a funcao open abre o arquivo para leitura.
 este arquivo deve existir  ou entao teremos o erro fileNotFoundError
-
+Funcao seek -> le um arquivo apartir de um indice seek(0)
+Funcao readLine() -  le apenas linha
+funcao readLines() - retorna uma lista com todas as linhas
 
 
