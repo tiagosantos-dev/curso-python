@@ -1,9 +1,9 @@
-from random import random
+from modulo_random import modulo_random
 from math import floor
 
 
 def pega_numero_aleatorio():
-    valor = floor(random() * 100 % 2)
+    valor = floor(modulo_random() * 100 % 2)
     return valor
 
 

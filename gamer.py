@@ -1,7 +1,7 @@
 # Game Ping-Pong
 
 from tkinter import *
-import random
+import modulo_random
 import time
 
 level = int(input("Qual nível você gostaria de jogar? 1/2/3/4/5 \n"))
@@ -30,7 +30,7 @@ class Bola:
         self.canvas.move(self.id, 245, 200)
 
         starts_x = [-3, -2, -1, 1, 2, 3]
-        random.shuffle(starts_x)
+        modulo_random.shuffle(starts_x)
 
         self.x = starts_x[0]
         self.y = -3
